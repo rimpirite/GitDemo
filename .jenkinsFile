@@ -1,0 +1,36 @@
+pipeline
+{
+agent any
+stages
+{
+stage('Build')
+{
+steps
+{
+echo 'Deploying the Build'
+}
+}
+stage('Sprint')
+{
+steps{
+echo 'deploying the code to Sprint environment'
+}
+}
+stage('Stage')
+{
+steps{
+echo 'deploying the code to Stage environment'
+}
+}
+stage('Production')
+{
+steps{
+echo 'deploying the code to Stage environment'
+}
+}
+
+}
+
+
+
+}

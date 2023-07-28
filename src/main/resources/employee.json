@@ -1,0 +1,8 @@
+{
+  "firstName" : "Amod",
+  "lastName" : "Mahajan",
+  "age" : 20,
+  "gender" : "Male",
+  "salary" : 10000.0,
+  "marriage" : true
+}

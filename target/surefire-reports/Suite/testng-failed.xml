@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="classes" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="APIRequest.Chrome2">
+        <methods>
+          <include name="yahoo"/>
+        </methods>
+      </class> <!-- APIRequest.Chrome2 -->
+      <class name="APIRequest.Chrome1">
+        <methods>
+          <include name="stopDocker"/>
+          <include name="google"/>
+          <include name="startDocker"/>
+        </methods>
+      </class> <!-- APIRequest.Chrome1 -->
+      <class name="APIRequest.Chrome3">
+        <methods>
+          <include name="Gmail"/>
+        </methods>
+      </class> <!-- APIRequest.Chrome3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
