@@ -8,9 +8,6 @@ import java.util.stream.Stream;
 public class ProductList {
 
 	public static void main(String[] args) {
-		String str="https://sprint.newhomesourceprofessional.com/savedlistings?clientid=q1Iwn3YU67x0cza/AGbH7Q==";
-		String[] arr=str.split("/");
-		System.out.println(arr);
 		
 		
 	/*	List<Product> plist=new ArrayList<Product>();
